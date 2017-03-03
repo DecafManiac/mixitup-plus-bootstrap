@@ -1,0 +1,158 @@
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+	font-family: Helvetica, Arial, Verdana;
+	margin:15px 0 0 0;
+	font-size:12px;
+}
+
+.container { 
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 1140px; 
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+	-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;	
+}
+ 
+ #filter-name{
+	padding:5px 0;
+	font-size: 14px;
+}
+#filters {
+	
+	padding:0;
+	list-style:none;
+}
+
+	#filters li {
+		float:left;
+	}
+	
+	#filters li span {
+		display: block;
+		font-size: 14px;
+		padding:5px 20px;		
+		text-decoration:none;
+		color:#666;
+		cursor: pointer;
+	}
+	
+	#filters li span.active {
+		background-color: #f3f3f3;
+		color:#787878;
+	}
+
+
+/* #Tablet (Portrait) */
+@
+/* #Clearing */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
+/* BOOTSTRAP */
+
+.active{
+  background: #68b8c4;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+.product-grid:after{
+  display: inline-block;
+  width: 100%;
+}
+
+.product-grid .mix,
+.product-grid .gap{
+  display: inline-block;
+}
+
+.product-grid .mix{
+	padding-bottom: 30px;
+  display: none;
+}
+
+.product-grid .mix:after{
+  display: inline-block;
+
+}
+
+.product-grid .mix:before{
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.item-wrap:hover .overlay {
+	opacity: .95;
+}
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.item-wrap .item {
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.item-wrap {
+	position: relative;
+}

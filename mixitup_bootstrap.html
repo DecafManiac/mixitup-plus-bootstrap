@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/override-bootstrap.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript">
+	(function(){
+	  $('#product-grid').mixItUp();
+	});
+	
+	$(function(){
+	  var $container = $('#product-grid');
+	  
+	  $container.mixItUp();
+	  
+	});
+
+	</script>
+
+</head>
+<body>
+
+		<ul id="filters" class="clearfix">
+			<li><div id="filter-name"><b>Filters:</b></div></li>
+			<li><span class="filter active" data-filter=".category-1, .category-2, .category-3, .category-4, .category-5">All</span></li>
+			<li><span class="filter" data-filter=".category-1">App</span></li>
+			<li><span class="filter" data-filter=".category-2">Card</span></li>
+			<li><span class="filter" data-filter=".category-3">Icon</span></li>
+			<li><span class="filter" data-filter=".category-4">Logo</span></li>
+			<li><span class="filter" data-filter=".category-5">Web</span></li>
+		</ul>
+
+		<div class="container">
+			<div class="row">
+				<div id="product-grid" class="product-grid">
+
+				  <div class="mix category-1 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+				  <div class="mix category-4 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+				   <div class="mix category-1 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+				   <div class="mix category-2 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+				   <div class="mix category-3 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+				   <div class="mix category-3 col-md-4 col-sm-6 col-xs-12" data-myorder="1">
+				  	<div class="item-wrap">
+				  		<div class="item">
+				  			<a class="overlay-link" href="#"></a>
+				  		</div>
+					  	<img src="img/thmb.png" class="center-block img-responsive"/>
+					  	<div class="overlay">
+					  		<div class="text">Example text</div>
+					  	</div>
+					</div>
+				  </div>
+			</div>
+		</div>	
+	</div>
+	
+</body>
+</html>
